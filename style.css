@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(246, 230, 208);
+    color: #111;
+}
+
+.main-wrapper{
+    max-width: 500px;
+    margin: 2rem auto;
+    padding-top: 5rem;
+}
+.wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 1rem;
+}
+.title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.generate-btn {
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    background-color: salmon;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    transition: .45s ease;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.generate-btn:hover {
+    background-color: rgb(215, 99, 86);
+}
+.quote-result {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.quote-name {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(220, 77, 62);
+}
+.credits {
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
